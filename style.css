@@ -28,14 +28,23 @@ p {
 nav,
 #credits {
   background-color: black;
-  height: 60px;
+  height: 50px;
   /* Your code goes here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .container {
-  width: 500px;
   /* Your code goes here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
 }
+
 
 .button {
   background-color: #ffcc00;
